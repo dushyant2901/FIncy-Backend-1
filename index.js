@@ -10,7 +10,7 @@ const savingsRouter = require("./routes/savings.router");
 
 const cors = require("cors");
 const corsOptions = {
-  origin: ["http://localhost:3000", "https://fincy-backend-1-1.onrender.com/"],
+  origin: ["http://localhost:3000", "https://fincy.onrender.com"],
   credentials: true,
   optionSuccessStatus: 200,
 };
